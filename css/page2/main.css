@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+}
+.student-cards{
+    height: 100%;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.student-cards img{
+    height: 200px;
+}
+.student-cards.complete{
+    background-color: var(--auxiliar-yellow);
+}
+.student-cards span{
+    max-width: 80%;
+    text-align: center;
+}
