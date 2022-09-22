@@ -26,7 +26,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 90px;
+    padding: 0 10%;
     height: 100px;
     background-color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
@@ -63,7 +63,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 90px;
+    padding: 0 10%;
     height: 140px;
     background-color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
@@ -113,4 +113,16 @@ footer{
 }
 .social-media-container i{
     font-size: 1.2rem;
+}
+
+@media (max-width:768px){
+    .social-media-container{
+        display: none;
+    }
+    .contact-container{
+        display: none;
+    }
+    .copyright-container{
+        font-size: 1.2rem;
+    } 
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="../css/page2/main.css">
     <link rel="icon" href="../img/logo-image.svg" type="image/png">
     <!-- Importando Scripts -->
-    <script src="../js/modules/page2/app.js" defer type="module"></script>
+    <script src="../js/modules/page2/pageTwo.js" defer type="module"></script>
     <script src="https://kit.fontawesome.com/b3cdcbfbcc.js" crossorigin="anonymous"></script> 
-    <title>Document</title>
+    <title>Estudantes</title>
 </head>
 <body>
     <header>
@@ -31,10 +31,13 @@
     </header>
     <div class="options-container">
         <div class="filters-container">
-            <select name="filters" id="filters">
+            <select name="filter-status" id="filter-status">
                 <option value="default">Status</option>
-                <option value="finalizado">Finalizado</option>
                 <option value="cursando">Cursando</option>
+                <option value="finalizado">Finalizado</option>
+            </select>
+            <select name="filter-year" id="filter-year">
+                <option value="default">Ano de Conclusão</option>
             </select>
         </div>
         <div class="sub-title">

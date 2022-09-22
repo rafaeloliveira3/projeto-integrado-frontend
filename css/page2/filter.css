@@ -10,12 +10,12 @@
 }
 .filters-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     color: var(--primary-color);
+    gap: 10px;
 }
-
 .filters-container select{
     font-size: 1rem;
     background-color: #0000;
@@ -37,4 +37,10 @@
 }
 .finalizado i{
     color: var(--auxiliar-yellow);
+}
+a.hide {
+    display: none;
+}
+select{
+    width: 8vw;
 }
