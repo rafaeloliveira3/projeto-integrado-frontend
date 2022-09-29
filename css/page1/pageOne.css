@@ -61,10 +61,12 @@ main{
     background-color: var(--primary-color);
     color: #fff;
     cursor: pointer;
+    border: 1px #0000 solid;
     transition: all .2s;
 }
 .courses-button:hover{
     box-shadow: 11px 11px 8px 4px #3347B060;
+    border: 1px #000 solid;
 }
 
 @media (max-width:768px){
