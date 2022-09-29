@@ -6,7 +6,7 @@
     height: 50px;
     background-color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
-    padding: 0 96px;
+    padding: 0 7%;
 }
 .filters-container{
     display: flex;
@@ -42,5 +42,14 @@ a.hide {
     display: none;
 }
 select{
-    width: 8vw;
+    width: fit-content;
+}
+
+@media (max-width:768px){
+    .options-container{
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        gap: 5px;
+    }
 }

@@ -32,6 +32,9 @@ header{
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
+main{
+    padding: 4% 0;
+}
 .site-logo-container{
     display: flex;
     flex-direction: row;
@@ -116,13 +119,14 @@ footer{
 }
 
 @media (max-width:768px){
-    .social-media-container{
-        display: none;
-    }
-    .contact-container{
-        display: none;
+    footer{
+        flex-direction: column;
+        gap: 15px;
+        height: fit-content;
+        padding: 10px 0;
     }
     .copyright-container{
-        font-size: 1.2rem;
-    } 
+        font-size: 1.25rem;
+        text-align: center;
+    }
 }

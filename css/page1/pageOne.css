@@ -78,4 +78,7 @@ main{
         font-size: 2rem;
         width: 100%;
     }
+    .content-container p{
+        text-align: center;
+    }
 }
