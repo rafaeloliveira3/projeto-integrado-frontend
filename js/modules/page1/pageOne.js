@@ -1,6 +1,6 @@
 'use strict'
 
-import { courseFinder } from "../../apiCalls.js"
+import { courseFinder } from "../../app.js"
 
 const cardCreator = (item) => {
     const card = document.createElement('a')

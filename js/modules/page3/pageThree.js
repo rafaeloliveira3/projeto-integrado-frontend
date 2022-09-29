@@ -1,6 +1,6 @@
 'use strict'
 
-import { studentInfo, subjectInfo } from "../../apiCalls.js"
+import { studentInfo, subjectInfo } from "../../app.js"
 
 const infoCreator = (item) => {
     const card = document.createElement('div')
