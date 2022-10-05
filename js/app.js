@@ -12,7 +12,6 @@ const studentShow = async (sigla, status, ano) => {
     const response = await fetch(url)
 
     const students = await response.json()
-    console.log(url)
     return students.status
 }
 const studentInfo = async (numero) => {
