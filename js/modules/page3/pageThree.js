@@ -1,6 +1,7 @@
 'use strict'
 
 import { studentInfo, subjectInfo } from "../../app.js"
+import { siglaMaker } from "../sigla.js"
 
 const infoCreator = (item) => {
     const card = document.createElement('div')
@@ -11,10 +12,12 @@ const infoCreator = (item) => {
 }
 const subjectCreator = (item) => {
     const element = document.createElement('div')
+    const sigla = siglaMaker(item.nome)
+
     element.innerHTML = `
     <span class="nota">${item.media}</span>
     <progress value="${item.media}" max="100"></progress>
-    <span class="subject-name">${item.nome}</span>
+    <span class="subject-name">${sigla}</span>
     `
     if(item.status == 'Aprovado') 
         element.classList.add('aproved')
