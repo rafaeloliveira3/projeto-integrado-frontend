@@ -40,6 +40,7 @@ main{
     flex-direction: row;
     align-items: center;
     gap: 11px;
+    color: #fff;
 }
 .site-logo-container span{
     font-size: 1.2rem;
