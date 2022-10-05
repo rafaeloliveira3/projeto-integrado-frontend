@@ -3,7 +3,7 @@ main{
     flex-grow: 1;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
 }
 .content-container{
