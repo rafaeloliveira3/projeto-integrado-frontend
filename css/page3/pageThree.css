@@ -19,17 +19,21 @@ main{
     font-weight: 500;
     gap: 4px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: initial;
 }
 .student img{
     height: 40vh;
 }
 .subjects{
+    padding: 1%;
+    gap: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 30%;
-    height: 40vh;
+    width: 40%;
+    height: fit-content;
+    flex-wrap: wrap;
 }
 .subject-info{
     gap: 10vh;
@@ -37,7 +41,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 5%;
+    width: 9%;
     font-weight: 700;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -51,7 +55,7 @@ main{
     color: var(--auxiliar-yellow);
 }
 .subjects progress{
-    display: inline-block;
+    display: block;
     border-radius: 15px;
     transform: rotate(-90deg);
     height: 16px;
@@ -81,8 +85,11 @@ main{
         gap: 20px;
     }
     .subjects{
-        gap: 2vw;
-        width: 100%;
+        gap: 4vw;
+        width: 90vw;
+    }
+    .subject-info{
+        width: 15%;
     }
     .subjects progress {
         width: 30vw;
